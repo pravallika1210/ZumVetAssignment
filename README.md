@@ -16,7 +16,11 @@ $ brew install mysql
 ```
 
 ```sh
+$ npm install -g express-generator
+$ npx express --view=ejs
 $ npm install
+$ npm install mysql
+$ npm install express-session --save
 ```
 
 
@@ -29,9 +33,7 @@ $ use zumvet
 $ source /LOCAL_PATH/create_login_table.sql
 ```
 
-
 ```sh
-$ cd login
 $ npm start
 ```
 
