@@ -35,3 +35,4 @@ $ cd login
 $ npm start
 ```
 
+Go to http://localhost:3000/ to try the app!
