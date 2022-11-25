@@ -12,6 +12,7 @@
 
 CREATE TABLE `user_details` (
   `user_id` int(11) NOT NULL,
+  `user_name`varchar(100) NOT NULL,
   `user_email` varchar(100) NOT NULL,
   `user_password` varchar(100) NOT NULL,
   `user_subscription` varchar(100) NOT NULL,
@@ -22,9 +23,9 @@ CREATE TABLE `user_details` (
 -- Dumping data for table `user_details`
 --
 
-INSERT INTO `user_details` (`user_id`, `user_email`, `user_password`, `user_subscription`,`user_session_id`) VALUES
-(1, 'pravallika@gmail.com', 'password', '', ''),
-(2, 'shweta@gmail.com', 'password', '', '');
+INSERT INTO `user_details` (`user_id`,`user_name`, `user_email`, `user_password`, `user_subscription`,`user_session_id`) VALUES
+(1, 'Pravallika','pravallika@gmail.com', 'pass', '', ''),
+(2, 'John','john@gmail.com', 'pass', '', '');
 
 --
 -- Indexes for dumped tables
@@ -34,7 +35,7 @@ INSERT INTO `user_details` (`user_id`, `user_email`, `user_password`, `user_subs
 -- Indexes for table `user_details`
 --
 ALTER TABLE `user_details`
-  ADD PRIMARY KEY (`user_id`);
+  ADD PRIMARY KEY (`user_email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
