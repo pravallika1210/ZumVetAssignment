@@ -16,10 +16,7 @@ $ brew install mysql
 ```
 
 ```sh
-$ npm install -g express-generator
 $ npm install
-$ npm install mysql
-$ npm install express-session --save
 ```
 
 
