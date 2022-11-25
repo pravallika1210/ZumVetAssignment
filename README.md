@@ -24,7 +24,7 @@ $ npm install
 
 ```sh
 $ mysql -u root -p
-$ CREATE DATABASE zumvet
+$ CREATE DATABASE zumvet;
 $ use zumvet
 $ source /LOCAL_PATH/create_login_table.sql
 ```
