@@ -35,4 +35,9 @@ $ npm start
 
 ```sh
 Go to http://localhost:3000/ to try the app!
+
+Login with
+Email Address - john@gmail.com
+Password - pass
+
 ```
