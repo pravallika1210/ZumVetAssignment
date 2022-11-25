@@ -31,6 +31,7 @@ $ source /LOCAL_PATH/create_login_table.sql
 
 
 ```sh
+$ cd login
 $ npm start
 ```
 
